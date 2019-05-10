@@ -17,7 +17,7 @@
 }
 
 html {
-  --color-primary: lightCoral;
+  --color-primary: #8a2be2;
   font-family: "Helvetica", sans-serif;
   font-size: calc(16px + 1.5vw);
 }
@@ -53,13 +53,11 @@ ul {
 
 li {
   position: relative;
-  /* list-style-type: "❧ "; */
-  /* list-style-color: var(--color-primary); */
 }
 
 li::before {
   display: inline-block;
-  content: "❧ ";
+  content: "— ";
 
   position: absolute;
   left: 0;
@@ -67,7 +65,7 @@ li::before {
   color: var(--color-primary);
   letter-spacing: -.5vw;
 
-  margin-left: -.8em;
+  transform: translateX(-1.5em);
 }
 
 label,
