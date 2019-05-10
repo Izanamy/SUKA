@@ -46,3 +46,8 @@
 #toggle-map:checked ~ .close-map {
   display: block;
 }
+
+.call-to-action-button {
+  margin-left: auto;
+  margin-right: auto;
+}
