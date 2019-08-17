@@ -27,16 +27,8 @@ body {
   margin: 0;
 }
 
-header {
-  margin: 16px;
-}
-
-footer {
-  margin: 16px;
-}
-
-main {
-  margin: 0;
+header, footer, main {
+  padding: 16px;
 }
 
 h1 {
@@ -55,6 +47,12 @@ h2 {
 
 body > footer {
   margin-top: 5rem;
+}
+
+#map {
+  margin: 0 -16px;
+  width: 100vw;
+  height: 80vh;
 }
 
 
